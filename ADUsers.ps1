@@ -1,4 +1,4 @@
-$USER_PASSWORD = "Password1"
+$USER_PASSWORD = {makeapasswordhere}
 $USERNAMES = Get-Content .\names.txt
 
 $password = ConvertTo-SecureString $USER_PASSWORD -AsPlainText -Force
